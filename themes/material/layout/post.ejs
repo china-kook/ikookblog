@@ -1,0 +1,62 @@
+<!-- Post TOC -->
+<% if( (page.toc === true) || (is_post() && page.toc !== false) ) { %>
+    <%- partial('_partial/toc_button') %>
+<% } %>
+
+<!-- Layouts -->
+<% if(page.layout === 'tags') { %>
+    <!-- Tags Cloud -->
+    <%- partial('_widget/page-tagcloud') %>
+
+<% } else if(page.layout === 'links') { %>
+    <!-- Single Links Page -->
+    <%- partial('_widget/page-links') %>
+
+<% } else if(page.layout === 'timeline') { %>
+    <!-- Single Timeline Page -->
+    <%- partial('_widget/page-timeline') %>
+
+<% } else { %>
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                <%- partial('_partial/post-header') %>
+
+                <% if(theme.scheme === 'Paradox') { %>
+                    <!-- Paradox Post Info -->
+                    <%- partial('_partial/Paradox-post-info') %>
+                <% } %>
+
+                <!-- Post Content -->
+                <%- partial('_partial/post-content') %>
+                <hr>
+                <h4 align="center">欢迎关注我的公众号：ikook</h4>
+                <p align="center">
+                    <img src="/img/8cm.jpg">
+                </p>
+                <p align="center">分享科技、生活、技术、人生、个人感悟</p>
+                <p align="center">同时记录个人成长历程</p>
+                <p align="center"> —— </p>
+                <p align="center"> 微信号：by-ikook</p>
+                <p align="center">  </p>
+                <p align="center">  </p>
+                <% if(theme.scheme === 'Isolation') { %>
+                    <!-- Paradox Post Info -->
+                    <%- partial('_partial/Isolation-post-info') %>
+                <% } %>
+
+                <!-- Post Comments -->
+                <% if(page.comment !== false) { %>
+                    <%- partial('_partial/comment') %>
+                <% } %>
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <%- partial('_partial/post-nav') %>
+        </div>
+    </div>
+<% } %>
