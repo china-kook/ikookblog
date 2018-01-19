@@ -1,11 +1,8 @@
 .DS_Store
 Thumbs.db
-db.json
 *.log
-node_modules/
 public/
-QSunSync-v1.10.1/
-.deploy*/
+
 .sync/*
 
 .me_configs.data
