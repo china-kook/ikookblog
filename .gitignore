@@ -1,8 +1,9 @@
 .DS_Store
 Thumbs.db
+
 *.log
 public/
-
+.deploy_git/
 .sync/*
 
 .me_configs.data
