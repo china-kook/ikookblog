@@ -9,6 +9,7 @@ thumbnail: https://meto.chinakook.com/blog-images/180118.jpeg
 ---
 
 上次的调查反映还算是蛮强烈的，投票结果显示大多数人是需要这么一篇文章的，可能本身就需要这么一篇文章，也可能就是想知道我用的什么工具吧，哈哈。
+<br>
 
 <!--more-->
 
@@ -35,6 +36,7 @@ thumbnail: https://meto.chinakook.com/blog-images/180118.jpeg
 先给大家看下我「Launchpad」首屏。
 
 ![](https://meto.chinakook.com/blog-images/180118-1.png)
+<br>
 
 **浏览器**
 
@@ -46,7 +48,7 @@ thumbnail: https://meto.chinakook.com/blog-images/180118.jpeg
 
 Safari 是 Mac 上自带的浏览器，也非常好用，其阅读器非常强大，同样是我喜欢的浏览器，也许很多人都没用过 Safari，相信我，用过之后你会感谢我的。
 
-
+<br>
 
 **IDE**
 
@@ -66,8 +68,7 @@ Xcode，Mac 上独有的非常优秀的 IDE，基本上我们使用的所有 Mac
 
 HBuilder，非常好用的 Web 开发 IDE，HBuilder 本身主体由 Java 开发，基于 Eclipse，兼容 Eclipse 的插件。据说“快”，是 HBuilder 最大的优势，大幅度提升了 Web 开发效率。嗯，确实挺快的，完整的语法提示和代码输入法、代码块等，用着很爽，免费。
 
-
-
+<br>
 **编辑器**
 
 
