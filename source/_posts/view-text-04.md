@@ -10,8 +10,8 @@ thumbnail: https://meto.chinakook.com/blog-images/18.01.26.png
 > 这篇文章内容节选自：TED - 我从生活和写作中学到的 12 个真理；演讲者：Anne Lamott。
 
  <!--more-->
-
- 在 TED 看了这段演讲感触很深，整理其中的片段给大家，希望对大家也所有帮助，完整视频点击「阅读原文」
+<br>
+ 在 TED 看了这段演讲感触很深，整理其中的片段给大家，希望对大家也所有帮助，完整视频点击[这里](https://www.ted.com/talks/anne_lamott_12_truths_i_learned_from_life_and_writing?language=zh-cn)
 
 <br>
 
