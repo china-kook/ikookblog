@@ -17,7 +17,7 @@ thumbnail: https://meto.chinakook.com/blog-images/180314.jpeg
 
 按照网上的解决办法就是在 Hibernate 核心配置文件中的数据库连接 url 后面添加如下代码：
 
-> ?useUnicode=true&amp;characterEncoding=utf-8
+> ?useUnicode=true&amp;characterEncoding=utf-8 
 
 再次测试，结果还是上面的错误信息，这就尴尬了。再查，发现我的 MySQL 数据库没有更改默认字符集，MySQL 的默认字符集是“latin1”（鬼知道 MySQL 设计者为什么弄它作为默认字符集）。开整。
 
